@@ -1,0 +1,47 @@
+{
+  "name": "mdimage",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "一个用于解决各种图像处理问题的 TypeScript 库",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/MDImage.js",
+    "require": "./dist/MDImage.umd.cjs"
+  },
+  "main": "./dist/MDImage.umd.cjs",
+  "module": "./dist/MDImage.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "typescript",
+    "blob",
+    "file",
+    "conversion"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eachann1024/MDImage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eachann1024/MDImage/issues"
+  },
+  "homepage": "https://github.com/eachann1024/MDImage#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "tslib": "^2.6.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}

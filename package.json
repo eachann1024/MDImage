@@ -1,5 +1,5 @@
 {
-  "name": "mdimage",
+  "name": "awesome-image-utils",
   "type": "module",
   "version": "0.1.0",
   "description": "一个用于解决各种图像处理问题的 TypeScript 库",

@@ -1,1 +1,2 @@
-export { fileToBlob, blobToFile } from './useImage'
+export * from './useImage'
+

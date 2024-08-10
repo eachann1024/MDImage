@@ -1,7 +1,7 @@
 {
   "name": "awesome-image-utils",
   "type": "module",
-  "version": "0.1.4",
+  "version": "0.9.0",
   "description": "一个用于解决各种图像处理问题的 TypeScript 库",
   "exports": {
     "types": "./dist/index.d.ts",

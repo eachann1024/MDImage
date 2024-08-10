@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/index.ts',
-      name: 'MDImage',
-      fileName: (format) => `MDImage.${format === 'es' ? 'js' : 'umd.cjs'}`
+      name: 'AwesomeImageUtils',
+      fileName: (format) => `awesome-image-utils.${format === 'es' ? 'js' : 'umd.cjs'}`
     },
     rollupOptions: {
       external: [],

@@ -1,15 +1,15 @@
 {
   "name": "awesome-image-utils",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "一个用于解决各种图像处理问题的 TypeScript 库",
   "exports": {
     "types": "./dist/index.d.ts",
-    "import": "./dist/MDImage.js",
-    "require": "./dist/MDImage.umd.cjs"
+    "import": "./dist/awesome-image-utils.js",
+    "require": "./dist/awesome-image-utils.umd.cjs"
   },
-  "main": "./dist/MDImage.umd.cjs",
-  "module": "./dist/MDImage.js",
+  "main": "./dist/awesome-image-utils.umd.cjs",
+  "module": "./dist/awesome-image-utils.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
@@ -25,7 +25,7 @@
     "file",
     "conversion"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "each1024@qq.com",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -36,12 +36,17 @@
   },
   "homepage": "https://github.com/eachann1024/MDImage#readme",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.0.0",
+    "typescript": ">=4.5.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.5.0"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
     "tslib": "^2.6.3",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
-  }
+  },
+  "sideEffects": false
 }
